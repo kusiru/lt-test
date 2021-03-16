@@ -64,6 +64,6 @@ jobs:
         password: ${{secrets.unicom_password}}
         appid: ${{secrets.unicom_appid}}
         notify_tele_chatid: ${{secrets.notify_tele_chatid}}
-        notify_tele_bottoken: ${{secrets.NOTIFY_TELE_BOTTOKEN}}
+        notify_tele_bottoken: ${{secrets.notify_tele_bottoken}}
         notify_sctkey: ${{secrets.notify_sctkey}}
       run: node index.js unicom --user=${user} --password=${password} --appid=${appid}
